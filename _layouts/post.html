@@ -13,16 +13,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="/favicon.ico">
     
+    <link rel="openid.server" href="http://pip.verisignlabs.com/server" />
+    <link rel="openid.delegate" href="http://dougbarth.pip.verisignlabs.com" />
+    <link rel="openid2.provider" href="http://pip.verisignlabs.com/server" />
+    <link rel="openid2.local_id" href="http://dougbarth.pip.verisignlabs.com" />
+    <meta http-equiv="X-XRDS-Location" content="http://pip.verisignlabs.com/user/dougbarth/yadisxrds" />
+
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" media="handheld" href="/css/handheld.css">
     <link rel="stylesheet" media="screen" href="/css/pygments/default.css" />
 
     <script src="/js/libs/modernizr-1.7.min.js"></script>
   </head>
+
   <body>
     <div id="container">
       <div id="main" role="main">
-        {{ content }}
+        <article>
+          <header>
+            <h1>{{page.title}}</h1>
+            <small>Posted {{page.date | date_to_string }}</small>
+          </header>
+
+          {{ content }}
+        <article>
       </div>
 
       <div id="about">
