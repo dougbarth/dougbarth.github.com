@@ -4,6 +4,7 @@ layout: default
 ---
 
 <div id="posts">
+  <h1>Blog Posts</h1>
   <ul>
     {% for post in site.posts %}
     <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
