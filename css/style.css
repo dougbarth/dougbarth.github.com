@@ -163,6 +163,13 @@ img.bg {
   z-index: 0;
 }
 
+@media all and (max-aspect-ratio: 1800/1350) {
+  img.bg {
+    max-width: inherit;
+    max-height: 100%;
+  }
+}
+
 p {
   margin: 0 0 1em 0;
 }
