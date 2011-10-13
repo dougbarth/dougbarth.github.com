@@ -23,7 +23,7 @@ This approach worked well enough, but when queues had a large backlog, we found 
 
 h1. Dealing with the subscription flood
 
-Switching to an AMQP subscription model presents a new set of issues: namely, subscriptions in AMQP push messages to consumers as quickly the network interfaced is serviced. Since we process work on a different thread than "EventMachine's":http://rubyeventmachine.com/ reactor thread (to leave it free to publish new messages), messages will be pulled off the network interface and into memory faster than we can process them. Without an approach to managing the flood of messages coming into the consumer, we would be unable to guarantee a priority order processing of messages nor keep our process from dying due to memory usage.
+Switching to an AMQP subscription model presents a new set of issues: namely, subscriptions in AMQP push messages to consumers as quickly the network interface is serviced. Since we process work on a different thread than "EventMachine's":http://rubyeventmachine.com/ reactor thread (to leave it free to publish new messages), messages will be pulled off the network interface and into memory faster than we can process them. Without an approach to managing the flood of messages coming into the consumer, we would be unable to guarantee a priority order processing of messages nor keep our process from dying due to memory usage.
 
 To manage the influx of messages for standard AMQP subscriptions, we lean on prefetch counts and explicit client acks. The prefetch count, set on a channel, determines how many unacked messages a channel may be sent before the broker will wait for acknowledgments. 
 
