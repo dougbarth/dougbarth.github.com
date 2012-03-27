@@ -7,6 +7,14 @@
   <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <!-- OpenID delegation -->
+    <link rel="openid.server" href="http://pip.verisignlabs.com/server" />
+    <link rel="openid.delegate" href="http://dougbarth.pip.verisignlabs.com" />
+    <link rel="openid2.provider" href="http://pip.verisignlabs.com/server" />
+    <link rel="openid2.local_id" href="http://dougbarth.pip.verisignlabs.com" />
+
+    <meta http-equiv="X-XRDS-Location" content="http://pip.verisignlabs.com/user/dougbarth/yadisxrds" />
     <title>
       {% if page.title %}
         {{ page.title }} |
