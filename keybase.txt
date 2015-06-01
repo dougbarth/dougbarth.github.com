@@ -1,0 +1,73 @@
+==================================================================
+https://keybase.io/dougbarth
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://dougbarth.github.io
+  * I am dougbarth (https://keybase.io/dougbarth) on keybase.
+  * I have a public key with fingerprint E311 A6FA 87A5 A5B1 8548  B2E2 F147 4600 851F 4F13
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "e311a6fa87a5a5b18548b2e2f1474600851f4f13",
+            "host": "keybase.io",
+            "key_id": "f1474600851f4f13",
+            "kid": "0101ffb19e49f307afd82a3ac03ee3df73f20b808bb4a1f466857edb1751a8eaa75c0a",
+            "uid": "7f440cb10263ec571723a8eac4b59800",
+            "username": "dougbarth"
+        },
+        "service": {
+            "hostname": "dougbarth.github.io",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1433174898,
+    "expire_in": 157680000,
+    "prev": "5dff3e02843fd83a5f0707c5fad720a2c5e67d3e864e9c11f053cb648cbf58dd",
+    "seqno": 6,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.8
+Comment: https://keybase.io/crypto
+
+yMM7AnicbZJ9TFVlGMAvKiQ4FFI0HUPuoYDko/N9zr1oE4rAr5gkBhnenY/3cI7g
+uZdzz72ABBEflmBIWraBedVsQTLZWkkuIi5zwwYxQ5TGRT4GxnAyJGz40YXOofqn
+9de793l/z+99nmfPtcDlhgCf2ZTXDFWb09b6dLt3OAwZeRVKMcRa+SLIXAzlgqVD
+kOQcoNgUSVYhMwQwBGFIgaEphmAIFqEJnGZRgAoITuEkDNMEIuACgkGxkGi16xma
+hmXsIF6yajHtYpF4Lfo/fO7SA4zAiCCwiAngJgGDKUbgaZTBGA7GAMB4gcIEFGZp
+mGZZnNFySZImKMCzCEUgDA0YhiI4mNF0jiUdJeA4zLEIjJIY4AgKoVBMxzicJUw0
+DOugHSgycxhoNG915LCMoopQSSykhZ0SB/QZ6K38F4nPkVTRwf7dl02xqlbOmqcB
+oqra7GZdoBbZ9IwCwFr+cVlYSea1eWoZTqDYJasMmRGN5FRJlyM4hiEUTpvoWAgU
+2iQFWCSdIChSKxWG9X+AU1MSvCBgAEZpHNPGgzGEAFMwxRECw1MozKAcAUiKxwBN
+4sDEIYgAExjHkjjNsQJB8zykd5cvWyEzqZXJ5GhKu5QjM6pDAVBJp/vtFQafAIOf
+7zJ9IwwB/kH/7okftWbxSApeXlnvCRIN52u7v5htflK9YXsPOjq3P+QPOHBwZfPt
+KV9fJXjorb0X1lz7Kqs9I6U1vu+7xNLCT0ZXO+uetmQneWaHazeGJtdfSUfPlhnv
+3u1wwh//VuMip6NczzryKxON+NzQK+fmF9+5mjwe3nC5M8kZfL3PcuxE0J6BqM+O
+Gi8yo+uL0lpTK1NLKfnirukRx6rkmXsh/cPlNw8tc2fTnro7jYH1C+Kd8NEBo2mV
+YUf0j7d+DTuVELNNfjxTnRRTV7/8zdtxe6SnBaK3K/j0JhmtuN7keTd9dcJUymL7
+kXgKND9c7z380m7P5cYz2S5bSd2tqgOzW37eezLLR+l3X31v5MDww7A016cv9nR9
+K75f1/zGybiV39hODdUwPfsy2w5ammo3V0VOVnw+1huR7td6+hlx50RyFpT9+0+u
+D54rvSRlrFX9Zz5MPxb2yHOuKM+78MKh0faXv540lvtXBzyefP1L2r3hh8iJ0P0N
+968EbuuPkqK/P1/YOWgS+h60NESLMZXPZ+7MzGC3hJb1v9o7UCyIMesehZ250bc9
+wlU+vuh3QbalNuxKPGGKXRfZ2Fazad42EjfYkrDigbtNHSubM280Bo+P5c/v83K/
+jD852HnWttvecZTujvwofGLqXki4d65j4c+m3u6usPuFN49HBDbemD6eS18aAc7a
+rY6mrcE+TQV/AZv1rao=
+=voZ8
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/dougbarth
+
+==================================================================
