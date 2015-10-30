@@ -1,0 +1,46 @@
+h1 {
+  font-size: 425%;
+  border-bottom: 1px solid gray;
+  background: top right no-repeat url(http://en.gravatar.com/userimage/4647766/b505a0a8e404c13a4eeb4ff1d2b5dfb0.jpeg);
+}
+
+ul {
+  margin-bottom: 1em;
+}
+
+h2 {
+  font-size: 250%;
+  margin-top: 0.5em;
+  border-bottom: 1px dashed gray;
+}
+
+h3 {
+  margin-top: 1em;
+}
+
+#main {
+  padding: 0.5em 0 0.1em;
+}
+
+@media print {
+  h1 {
+    margin-top: 0;
+    background: top right no-repeat url(http://en.gravatar.com/userimage/4647766/b505a0a8e404c13a4eeb4ff1d2b5dfb0.jpeg) !important;
+  }
+
+  body, #main, #container {
+    margin: 0;
+    padding: 0;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+  }
+
+  #container #main {
+    margin: 0em 1em;
+  }
+
+  a[href]:after {
+    content: "";
+  }
+}
+
