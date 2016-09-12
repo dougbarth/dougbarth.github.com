@@ -5,7 +5,7 @@ layout: resume
 Doug Barth
 ============
 
-A passionate full-stack coder. I love learning and I love producing results in the fewest lines of code.
+An experienced engineer. Interested in mission critical systems, and comfortable working in all parts of the stack.
 
 * Github: <https://github.com/dougbarth>
 * Blog: <http://dougbarth.github.com/>
@@ -15,13 +15,30 @@ A passionate full-stack coder. I love learning and I love producing results in t
 Jobs
 ------------
 
+### [Hired] - San Francisco, CA
+
+Jan 2016 - Present
+
+Jobs marketplace where companies apply to candidates
+
+Titles held: Software Engineer L7
+
+* Worked on the systems team, which owned infrastructure, tools, and development process
+* Stabilized production database, taught engineering org how to safely make data changes
+* Built a permissions system for the employment adminstrative application
+* Introduced configuration managements systems: Terraform and Chef
+
+Tech used: Ruby, Rails, Postgres, Heroku, Chef, Terraform
+
+[Hired]:https://hired.com/
+
 ### [PagerDuty] - San Franciso, CA
 
-October 2012 - Present
+October 2012 - December 2015
 
 Incident management software trusted by companies big and small
 
-Titles held: Senior Operations Enginner, Senior Software Engineer
+Titles held: Senior Operations Engineer, Senior Software Engineer
 
 * Built a development style workflow for operations engineers working on Chef configuration changes, which allowed PagerDuty to grow the ops team and productivity with it
 * Replaced PagerDuty's DRBD based MySQL tier with Percona's XtraDB Cluster, which enabled us to perform database maintenance and scaling without incurring downtime. I gave a talk at Percona Live 2015 about this setup.
@@ -65,7 +82,7 @@ Tech used: Ruby, Rails, MySQL, RabbitMQ, memcached, Redis, MongoDB, CouchDB, jQu
 
 ### [Orbitz] - Chicago, IL
 
-Dec 2003 - May 2008
+May 2003 - May 2008
 
 An online travel search & booking site.
 
