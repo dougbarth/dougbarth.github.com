@@ -15,9 +15,33 @@ A passionate full-stack coder. I love learning and I love producing results in t
 Jobs
 ------------
 
+### [Stripe] - San Francisco, CA
+
+October 2016 - Present
+
+Payments infrastructure for the internet
+
+Titles held: Site Reliability Engineer, Software Engineer, Staff Software Engineer
+
+* Member of the Compute team, stablizing and scaling the lowest layers of Stripe's infrastructure
+* DRI for Stripe's initial multi-region efforts, laying the groundwork for Stripe's growth into multiple geographic regions around the world
+* Helped move Stripe toward a multi-account AWS strategy by moving security sensitive control systems to a separate, isolated account
+
+### [Hired] - San Francisco, CA
+
+January 2016 - October 2016
+
+Online job marketplace matching employeers with candidates
+
+Titles held: Software Engineer
+
+* Stabilized their production environment
+* Setup infrastructure as code practices to bring consistency and better maintainence of the system
+* Deployed an indentity and access management (IAM) system to manage access to the production dataset
+
 ### [PagerDuty] - San Franciso, CA
 
-October 2012 - Present
+October 2012 - December 2015
 
 Incident management software trusted by companies big and small
 
