@@ -27,6 +27,8 @@ Titles held: Site Reliability Engineer, Software Engineer, Staff Software Engine
 * DRI for Stripe's initial multi-region efforts, laying the groundwork for Stripe's growth into multiple geographic regions around the world
 * Helped move Stripe toward a multi-account AWS strategy by moving security sensitive control systems to a separate, isolated account
 
+[Stripe]:https://stripe.com/
+
 ### [Hired] - San Francisco, CA
 
 January 2016 - October 2016
@@ -38,6 +40,8 @@ Titles held: Software Engineer
 * Stabilized their production environment
 * Setup infrastructure as code practices to bring consistency and better maintainence of the system
 * Deployed an indentity and access management (IAM) system to manage access to the production dataset
+
+[Hired]:https://hired.com/
 
 ### [PagerDuty] - San Franciso, CA
 
